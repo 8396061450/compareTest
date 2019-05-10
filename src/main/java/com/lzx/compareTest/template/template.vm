@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>提取结果</title>
+</head>
+
+<body>
+<table>
+<thread>
+  <tr>
+	 <th>url</td>
+	 <th>名称</td>
+	 <th>单价</td>
+	 <th>个数</td>
+	 <th>内部单价</td>
+	 <th>折扣</td>
+	 <th>券</td>
+	 <th>结果</td>
+  </tr>
+</thread>
+<tbody>
+#foreach($i in $list)
+<tr>
+ <td>$i.url</td>
+ <td>$i.name</td>
+ <td>$i.price</td>
+ <td>$i.num</td>
+ <td>$i.uniprice</td>
+ <td>$i.zhek</td>
+ <td>$i.quan</td>
+ <td>$i.result</td>
+</tr>
+#end
+</tbody>
+</table>
+</body>
+
+</html>
