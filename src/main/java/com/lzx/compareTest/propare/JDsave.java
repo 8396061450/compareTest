@@ -7,6 +7,8 @@ import com.lzx.compareTest.pojo.ZQDetail;
 public class JDsave{
 
 	public static void save(List<ZQDetail> detail) {
-		
+		for(int i=0;i<detail.size();i++){
+			
+		}
 	}
 }
